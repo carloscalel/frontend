@@ -14,6 +14,8 @@
 
 	<title>Tienda Virtual</title>
 
+	<link rel="icon" href="http://localhost/backend/vistas/img/plantilla/icono.png">	
+
 	<link rel="stylesheet" href="vistas/css/plugins/bootstrap.min.css">
 
 	<link rel="stylesheet" href="vistas/css/plugins/font-awesome.min.css">
