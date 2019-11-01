@@ -14,7 +14,13 @@
 
 	<title>Tienda Virtual</title>
 
-	<link rel="icon" href="http://localhost/backend/vistas/img/plantilla/icono.png">	
+	<?php
+
+		$icono = ControladorPlantilla::ctrEstiloPlantilla();
+
+		echo '<link rel="icon" href="http://localhost/backend/'.$icono["icono"].'">';
+
+	?>	
 
 	<link rel="stylesheet" href="vistas/css/plugins/bootstrap.min.css">
 

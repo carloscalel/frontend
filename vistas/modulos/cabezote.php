@@ -75,7 +75,7 @@ HEADER
 				
 				<a href="#">
 						
-					<img src="http://localhost/backend/vistas/img/plantilla/logo.png" class="img-responsive">
+					<img src="http://localhost/backend/<?php echo $social["logo"]; ?>" class="img-responsive">
 
 				</a>
 				
