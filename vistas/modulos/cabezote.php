@@ -159,7 +159,10 @@ HEADER
 
 			<?php
 
-				$categorias = ControladorProductos::ctrMostrarCategorias();
+				$item = null;
+				$valor = null;
+
+				$categorias = ControladorProductos::ctrMostrarCategorias($item, $valor);
 
 				foreach ($categorias as $key => $value) {
 
@@ -172,8 +175,12 @@ HEADER
 				<hr>
 
 				<ul>';
+
+					$item = "id_categoria";
+
+					$valor = $value["id"];
 					
-					$subcategorias = ControladorProductos::ctrMostrarSubCategorias($value["id"]);
+					$subcategorias = ControladorProductos::ctrMostrarSubCategorias($item, $valor);
 
 					foreach ($subcategorias as $key => $value) {
 						echo '<li><a href="'.$value["ruta"].'" class="pixelSubCategorias">'.$value["subcategoria"].'</a></li>';

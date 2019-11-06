@@ -56,10 +56,59 @@ CABEZOTE
 
 include "modulos/cabezote.php";
 
+/*=============================================
+CONTENIDO DINAMICO
+=============================================*/
+
 $rutas = array();
+$ruta =null;
 
 if (isset($_GET["ruta"])) {
-	$rutas = explode("/", $_GET["ruta"]);	
+	$rutas = explode("/", $_GET["ruta"]);
+
+	$item = "ruta";
+	$valor =  $rutas[0];
+
+	/*=============================================
+	URL'S AMIGABLES DE CATEGORIAS
+	=============================================*/
+
+	$rutaCategorias = ControladorProductos::ctrMostrarCategorias($item, $valor);	
+
+		if($rutas[0] == $rutaCategorias["ruta"]){
+
+			$ruta = $rutas[0];
+		}
+
+		/*=============================================
+		URL'S AMIGABLES DE SUBCATEGORIAS
+		=============================================*/
+
+		$rutaSubCategorias = ControladorProductos::ctrMostrarSubCategorias($item, $valor);
+
+		foreach ($rutaSubCategorias as $key => $value) {
+		
+		if($rutas[0] == $value["ruta"]){
+
+			$ruta = $rutas[0];
+
+		}
+
+		}
+
+		/*=============================================
+		LISTA BLANCA DE URL'S AMIGABLES
+		=============================================*/
+
+	  if($rutas != null){
+
+	  	include "modulos/productos.php";
+
+
+	  }else{
+
+	  	include "modulos/error404.php";
+	  }
 
 }
 
