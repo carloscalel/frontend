@@ -13,145 +13,140 @@ SLIDESHOW
 		<ul>
 
 			<!-- SLIDE 1 -->
+		
+			<li>
+				
+				<img src="http://localhost/backend/vistas/img/slide/default/back_default.jpg">
 
-				<li>
+				<div class="slideOpciones slideOpcion1">
 					
-					<img src="http://localhost/backend/vistas/img/slide/default/back_default.jpg">
+					<img class="imgProducto" src="http://localhost/backend/vistas/img/slide/slide1/calzado.png" style="top:15%; right:10%; width:45%">
 
-					<div class="sldeOpciones slideOpcion1">
+					<div class="textosSlide" style="top:20%; left:10%; width:40%">
 						
-						<img class="imgProducto" src="http://localhost/backend/vistas/img/slide/slide1/
-						calzado.png">
+						<h1 style="color:#333">Lorem Ipsum</h1>
 
-						<div class="textosSlide">
+						<h2 style="color:#777">Lorem ipsum dolor sit</h2>
+
+						<h3 style="color:#888">Lorem ipsum dolor sit</h3>
+
+						<a href="#">
 							
-							<h1>Lorem Ipsum</h1>
+							<button class="btn btn-default backColor text-uppercase">
 
-							<h2>Lorem ipsum dolor sit</h2>
+							VER PRODUCTO <span class="fa fa-chevron-right"></span>
 
-							<h3>Lorem ipsum dolor sit</h3>
+							</button>
 
-							<a href="#">
-								
-								<button class="btn btn-default backColor text-uppercase">
-								
-								VER PRODUCTO <span class="fa fa-chevron-right"></span>
+						</a>
 
-								</button>
+					</div>	
 
-							</a>
-	
-						</div>
+				</div>
 
-					</div>
-
-				</li>
+			</li>	
 
 			<!-- SLIDE 2 -->
+		
+			<li>
+				
+				<img src="http://localhost/backend/vistas/img/slide/default/back_default.jpg">
 
-				<li>
+				<div class="slideOpciones slideOpcion2">
 					
-					<img src="http://localhost/backend/vistas/img/slide/default/back_default.jpg" >
+					<img class="imgProducto" src="http://localhost/backend/vistas/img/slide/slide2/blusa.png" style="top:5%; left:15%; width:25%">
 
-					<div class="sldeOpciones slideOpcion2">
+					<div class="textosSlide" style="top:15%; right:15%; width:40%">
 						
-						<img class="imgProducto" src="http://localhost/backend/vistas/img/slide/slide2/
-						blusa.png">
+						<h1 style="color:#333">Lorem Ipsum</h1>
 
-						<div class="textosSlide">
+						<h2 style="color:#777">Lorem ipsum dolor sit</h2>
+
+						<h3 style="color:#888">Lorem ipsum dolor sit</h3>
+
+						<a href="#">
 							
-							<h1>Lorem Ipsum</h1>
+							<button class="btn btn-default backColor text-uppercase">
 
-							<h2>Lorem ipsum dolor sit</h2>
+							VER PRODUCTO <span class="fa fa-chevron-right"></span>
 
-							<h3>Lorem ipsum dolor sit</h3>
+							</button>
 
-							<a href="#">
-								
-								<button class="btn btn-default backColor text-uppercase">
-								
-								VER PRODUCTO <span class="fa fa-chevron-right"></span>
+						</a>
 
-								</button>
+					</div>	
 
-							</a>
-	
-						</div>
+				</div>
 
-					</div>
+			</li>	
 
-				</li>
+			<!-- SLIDE 3 -->
+		
+			<li>
+				
+				<img src="http://localhost/backend/vistas/img/slide/default/back_default.jpg">
 
-
-				<!-- SLIDE 3 -->
-
-				<li>
+				<div class="slideOpciones slideOpcion2">
 					
-					<img src="http://localhost/backend/vistas/img/slide/default/back_default.jpg">
+					<img class="imgProducto" src="http://localhost/backend/vistas/img/slide/slide3/collar.png" style="top:5%; left:15%; width:25%">
 
-					<div class="sldeOpciones slideOpcion2">
+					<div class="textosSlide" style="top:15%; right:15%; width:40%">
 						
-						<img class="imgProducto" src="http://localhost/backend/vistas/img/slide/slide3/
-						collar.png">
+						<h1 style="color:#eee">Lorem Ipsum</h1>
 
-						<div class="textosSlide">
+						<h2 style="color:#ccc">Lorem ipsum dolor sit</h2>
+
+						<h3 style="color:#aaa">Lorem ipsum dolor sit</h3>
+
+						<a href="#">
 							
-							<h1>Lorem Ipsum</h1>
+							<button class="btn btn-default backColor text-uppercase">
 
-							<h2>Lorem ipsum dolor sit</h2>
+							VER PRODUCTO <span class="fa fa-chevron-right"></span>
 
-							<h3>Lorem ipsum dolor sit</h3>
+							</button>
 
-							<a href="#">
-								
-								<button class="btn btn-default backColor text-uppercase">
-								
-								VER PRODUCTO <span class="fa fa-chevron-right"></span>
+						</a>
 
-								</button>
+					</div>	
 
-							</a>
-	
-						</div>
+				</div>
 
-					</div>
+			</li>
 
-				</li>
+			<!-- SLIDE 4 -->
+		
+			<li>
+				
+				<img src="http://localhost/backend/vistas/img/slide/slide4/fondo3.jpg">
 
-				<!-- SLIDE 4 -->
-
-				<li>
+				<div class="slideOpciones slideOpcion1">
 					
-					<img src="http://localhost/backend/vistas/img/slide/slide4/fondo3.jpg">
+					<img class="imgProducto" src="" style="top:5%; right:15%; width:25%">
 
-					<div class="sldeOpciones slideOpcion1">
+					<div class="textosSlide" style="top:20%; left:10%; width:40%">
 						
-						<img class="imgProducto" src="">
+						<h1 style="color:#333">Lorem Ipsum</h1>
 
-						<div class="textosSlide">
+						<h2 style="color:#777">Lorem ipsum dolor sit</h2>
+
+						<h3 style="color:#888">Lorem ipsum dolor sit</h3>
+
+						<a href="#">
 							
-							<h1>Lorem Ipsum</h1>
+						<!-- 	<button class="btn btn-default backColor text-uppercase">
 
-							<h2>Lorem ipsum dolor sit</h2>
+							VER PRODUCTO <span class="fa fa-chevron-right"></span>
 
-							<h3>Lorem ipsum dolor sit</h3>
+							</button> -->
 
-							<a href="#">
-								
-								<button class="btn btn-default backColor text-uppercase">
-								
-								VER PRODUCTO <span class="fa fa-chevron-right"></span>
+						</a>
 
-								</button>
+					</div>	
 
-							</a>
-	
-						</div>
+				</div>
 
-					</div>
-
-				</li>
-
+			</li>		
 
 		</ul>
 
@@ -161,12 +156,12 @@ SLIDESHOW
 
 		<ol id="paginacion">
 
-			<li item="1"><span class="fa fa-circle"></span></li>
+        	<li item="1"><span class="fa fa-circle"></span></li>
 			<li item="2"><span class="fa fa-circle"></span></li>
 			<li item="3"><span class="fa fa-circle"></span></li>
 			<li item="4"><span class="fa fa-circle"></span></li>
-		</ol>	
 
+		</ol>	
 
 		<!--=====================================
 		FLECHAS
@@ -178,3 +173,13 @@ SLIDESHOW
 	</div>
 
 </div>
+
+<center>
+	
+	<button id="btnSlide" class="backColor">
+		
+			<i class="fa fa-angle-up"></i>
+
+	</button>
+
+</center>
