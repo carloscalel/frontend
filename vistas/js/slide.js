@@ -12,6 +12,9 @@ var titulos3 = $("#slide h3");
 var btnVerProducto = $("#slide button");
 var detenerIntervalo = false;
 
+$("#slide ul li").css({"width":100/$("#slide ul li").length + "%"})
+$("#slide ul").css({"width":$("#slide ul li").length*100 + "%"})
+
 /*=============================================
 ANIMACIÓN INICIAL
 =============================================*/
