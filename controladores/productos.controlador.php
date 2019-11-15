@@ -31,4 +31,19 @@ class ControladorProductos{
 
 	}
 
+
+	/*=============================================
+	MOSTRAR PRODUCTOS
+	=============================================*/
+
+	static public function ctrMostrarProductos($ordenar, $item, $valor){
+
+		$tabla = "productos";
+
+		$respuesta = ModeloProductos::mdlMostrarProductos($tabla, $ordenar, $item, $valor);
+
+		return $respuesta;
+	}
+
 }
+
